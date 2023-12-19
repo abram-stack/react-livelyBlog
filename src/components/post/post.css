@@ -1,0 +1,34 @@
+.post{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.post--img{
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.post--categories{
+  grid-template-columns: repeat(3, 100px);
+  justify-content: space-around;
+}
+.post--category{
+  padding: 5px 10px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: .8rem;
+  border: 1px solid green;
+}
+.post--title{
+  padding:5px;
+  text-align: center;
+}
+.post--description{
+ line-height: 1.5; 
+ letter-spacing: .5px;
+ text-align: center;
+ padding:10px;
+}
