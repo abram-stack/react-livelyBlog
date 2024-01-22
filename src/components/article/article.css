@@ -1,0 +1,56 @@
+.article{
+  flex: 9;
+}
+
+.article--wrapper{
+  padding: 1.5rem;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.article--img{
+  width: 100%;
+  /* height: 300px; */
+  border-radius: 5px;
+  object-fit: cover;
+}
+.article--title{
+  text-align: center;
+}
+.article--actions{
+  margin-left: auto;
+  font-size: 1.5rem;
+  display: flex;
+  gap: .5rem;
+}
+.actions--icon-edit{
+  color: green;
+}
+.actions--icon-delete{
+  color: #c1121f;
+}
+.article--info{
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.article--author{
+  font-weight: 700;
+}
+.article--date{
+  color: grey;
+}
+.article--text{
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.article--text p{
+  margin-bottom: 1rem;
+}
+.article--text p::first-letter{
+  margin-left: 20px;
+}

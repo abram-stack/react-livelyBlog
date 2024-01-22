@@ -6,6 +6,7 @@ import './posts.css'
 export default function Posts() {
   return (
     <div className='posts grid'>
+      {/* later should be a data an loop through */}
       <Post/>
       <Post/>
       <Post/>

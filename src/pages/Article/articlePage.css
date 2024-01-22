@@ -1,0 +1,6 @@
+.article-page--container{
+  display: flex;
+  min-width: 720px;
+  max-width: 1020px;
+  margin: 0 auto;
+}

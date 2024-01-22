@@ -13,6 +13,7 @@
 }
 .post--categories{
   grid-template-columns: repeat(3, 100px);
+  gap: .5rem;
   justify-content: space-around;
 }
 .post--category{
@@ -27,8 +28,14 @@
   text-align: center;
 }
 .post--description{
- line-height: 1.5; 
+ line-height: 2; 
  letter-spacing: .5px;
  text-align: center;
- padding:10px;
+ padding-left:10px;
+ padding-right:10px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ display: -webkit-box;
+ -webkit-line-clamp: 5;
+ -webkit-box-orient: vertical;
 }

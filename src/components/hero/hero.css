@@ -21,4 +21,8 @@
 }
 .hero--img{
   object-fit: cover;
+  width: 100%;
+  /* max-width: 1200px; */
+  min-width: 720px;
+  margin: 0 auto;
 }

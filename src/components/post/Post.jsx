@@ -10,6 +10,9 @@ export default function Post() {
       <div className='post--categories grid'>
         <span className='post--category'>musci</span>
         <span className='post--category'>lifestyle</span>
+        <span className='post--category'>lifestyle</span>
+        <span className='post--category'>lifestyle</span>
+        <span className='post--category'>lifestyle</span>
       </div>
 
       <h2 className='post--title'>

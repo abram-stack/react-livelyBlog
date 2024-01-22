@@ -9,10 +9,11 @@ header{
   display: flex;
   align-items: center;
   padding: 20px 15px;
+  z-index: 999;
 }
 .header--logo,.header--icon{
   flex: 3;
-  /*  */
+  /* specifies the portion(ratio) */
 }
 .header--icon{
   display: flex;
