@@ -12,8 +12,8 @@ export default function Article() {
         <img className='article--img' src={articleImg} />
         <h1 className='article--title'>Article single post</h1>
         <div className='article--actions'>
-          <RiEdit2Line className='actions--icon-edit' />
-          <GoTrash className='actions--icon-delete' />
+          <RiEdit2Line className='actions--icon actions--icon-edit' />
+          <GoTrash className='actions--icon actions--icon-delete' />
         </div>
 
         <div className='article--info'>

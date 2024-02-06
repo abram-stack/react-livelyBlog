@@ -25,11 +25,27 @@
   display: flex;
   gap: .5rem;
 }
+.actions--icon{
+  cursor: pointer;
+}
+
 .actions--icon-edit{
   color: green;
+  opacity: .7;
+  transition: opacity .3s;
+}
+.actions--icon-edit:hover{
+  color: green;
+  opacity: 1;
 }
 .actions--icon-delete{
   color: #c1121f;
+  opacity: .7;
+  transition: opacity .3s;
+}
+.actions--icon-delete:hover{
+  color: #c1121f;
+  opacity: 1;
 }
 .article--info{
   text-transform: uppercase;

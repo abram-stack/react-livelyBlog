@@ -1,0 +1,41 @@
+.write{
+  border: 1px solid blue;
+  padding: 2rem;
+}
+.form{
+  max-width: 720px;
+  margin: 0 auto;
+}
+.form--group{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.file--group{
+  display: flex;
+  flex-direction: column;
+}
+.input--file{
+  display: none;
+}
+.input--icon-add{
+  font-size: 2rem;
+  cursor: pointer;
+}
+.input--text{
+  padding: 5px 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  width: 100%;
+}
+.input--blog{
+  font-size: 20px;
+}
+.btn--publish{
+  font-size: 1rem;
+  border: none;
+  font-family: inherit;
+  background:teal;
+  color: whitesmoke;
+  cursor: pointer;
+}
