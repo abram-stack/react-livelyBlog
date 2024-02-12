@@ -21,7 +21,7 @@ export default function Article() {
             By <span className='article--author'>Sofie Mathson</span>
           </p>
           <p className='article--date'>
-            published <span>23 Jan 2024</span>
+            published <span>6 February 2024</span>
           </p>
         </div>
         <div className='article--text'>

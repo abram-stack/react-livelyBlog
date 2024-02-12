@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/header/Header'
 import ArticlePage from './pages/Article/ArticlePage'
 import Homepage from './pages/Homepage/Homepage'
+import Login from './pages/Login/Login'
 import Write from './pages/Write/Write'
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <Header />
       {/* <Homepage /> */}
       {/* <ArticlePage/> */}
-      <Write/>
+      {/* <Write/> */}
+      <Login/>
     </>
   )
 }
