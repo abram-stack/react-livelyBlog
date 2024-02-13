@@ -5,14 +5,19 @@
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   border-radius: 10px;
   padding-bottom: 10px;
+  overflow: hidden;
 }
+/* .post:hover img{
+  transform: scale(2,2);
+} */
 .post--img{
   height: 280px;
   object-fit: cover;
   border-radius: 10px;
+  transition: scale 2s ease-in-out;
 }
 .post--categories{
-  grid-template-columns: repeat(3, 100px);
+  grid-template-columns: repeat(2, 100px);
   gap: .5rem;
   justify-content: space-around;
 }

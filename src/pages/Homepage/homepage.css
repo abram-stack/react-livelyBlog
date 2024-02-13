@@ -1,3 +1,17 @@
+
+/* .homepage--container{
+} */
 .home--content{
-  display: flex;
+  margin: 1.6rem;
+}
+
+@media (min-width:720px){
+  .home--content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+  }
+  .sidebar{
+    margin-top: 0;
+  }
 }

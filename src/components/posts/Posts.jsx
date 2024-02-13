@@ -5,7 +5,7 @@ import './posts.css'
 
 export default function Posts() {
   return (
-    <div className='posts grid'>
+    <div className='posts'>
       {/* later should be a data an loop through */}
       <Post/>
       <Post/>
