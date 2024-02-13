@@ -1,10 +1,8 @@
 .article{
-  flex: 9;
+  border: 1px solid greenyellow;
 }
-
 .article--wrapper{
-  padding: 1.5rem;
-  padding-right: 0;
+  padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
